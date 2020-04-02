@@ -1,11 +1,5 @@
 After rendering, Embers outputs a script file along with the video files in the /Ember Renders/ folder.
 
-Depending on your version of Embers, this script may or may not be configured to work on your system.
+The script file will start with `ENCODE` and end with `.cmd`. Running it will turn your .avi parts into a .mp4 file which is much easier to preview and upload to YouTube, etc.
 
-To fix this script, right-click and Edit it.
-
-1. Remove the `START  /WAIT /B` from the start of script
-
-2. Remove the `;` from the end of the script.
-
-The script will now work.
+You can delete the ENCODE\*.cmd file and the \*.Mbrs#.avi files after encoding is complete.
